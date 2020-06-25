@@ -45,18 +45,18 @@ smaller than second one, they are separated by a “,”<br>
 takes three inputs, which are a integer indicates the number of data rows, <br>
 a vector of integer represent keys and a vector of integer represent values.<br>
 You need to construct your B+ tree index in this function by inserting the key,<br>
-value pairs into the B+ tree one by one.<br>
+value pairs into the B+ tree one by one.<br><br>
 `key_query(query_keys)`<br>
 takes one input, which is a vector of integer indicating the key used for query.<br>
 In this function you need to output a file named “key_query_out.txt”, each row <br>
 consists of a integer which is the value corresponds to the keys in query_keys<br>
-(output -1 if the key is not found).<br>
+(output -1 if the key is not found).<br><br>
 `range_query(query_pairs)`<br>
 takes one input, which is a vector of pair of two integers indicating the range <br>
 of query. In this function you need to output a file named “range_query_out.txt”,<br>
 each row consists of a integer which is the MAXIMUM value in the given query key range<br>
-(output -1 if no key found in the range).<br>
+(output -1 if no key found in the range).<br><br>
 `clear_index()`<br>
-takes no input, you need to free all the memory used by your B+ tree index in this function.
+takes no input, you need to free all the memory used by your B+ tree index in this function.<br>
 ## index.h
 ○ header file for index.cpp<br>
