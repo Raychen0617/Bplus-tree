@@ -50,12 +50,12 @@ value pairs into the B+ tree one by one.<br>
 takes one input, which is a vector of integer indicating the key used for query.<br>
 In this function you need to output a file named “key_query_out.txt”, each row <br>
 consists of a integer which is the value corresponds to the keys in query_keys<br>
-(output -1 if the key is not found).
+(output -1 if the key is not found).<br>
 `range_query(query_pairs)`<br>
 takes one input, which is a vector of pair of two integers indicating the range <br>
 of query. In this function you need to output a file named “range_query_out.txt”,<br>
 each row consists of a integer which is the MAXIMUM value in the given query key range<br>
-(output -1 if no key found in the range).
+(output -1 if no key found in the range).<br>
 `clear_index()`<br>
 takes no input, you need to free all the memory used by your B+ tree index in this function.
 ## index.h
